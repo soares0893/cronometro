@@ -1,0 +1,40 @@
+
+main{
+    background-color: rgb(46, 44, 44);
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    margin: 200px auto;
+}
+main h1{
+    text-align: center;
+    color: #6FF6A7;
+}
+#section-for-time {
+    display: flex;
+    margin: auto;
+    width: 300px;
+}
+#section-for-time span{
+    font-size: 5rem;
+    margin: auto;
+    color: whitesmoke
+}
+#section-for-buttons{
+    width: 250px;
+    margin: auto;
+}
+#section-for-buttons button {
+    background-color: #6FF6A7;
+    color: rgb(46, 44, 44);;
+    border: none;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+button:hover{
+    background-color: whitesmoke;
+    color: rgb(46, 44, 44);
+}
